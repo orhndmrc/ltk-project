@@ -23,7 +23,6 @@
     "@wdio/spec-reporter": "^8.0.13",
     "@wdio/sync": "^7.27.0",
     "chai": "^4.3.7",
-    "chromedriver": "latest",
     "dotenv": "^16.0.3",
     "wdio-chromedriver-service": "^8.0.1"
   }
