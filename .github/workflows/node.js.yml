@@ -16,20 +16,10 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-
-      - name: Start Selenoid server
-        uses: n-ton4/selenoid-github-action@master
-        id: start-selenoid
-        continue-on-error: false
-        with:
-          version: latest-release
-          args: -limit 10
-          browsers: chrome:98.0
-          last-versions: 0
 
       - name: Checkout the code
         uses: actions/checkout@v2
