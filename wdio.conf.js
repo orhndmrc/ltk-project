@@ -27,7 +27,7 @@ export const config = {
         browserName: 'chrome',
         acceptInsecureCerts: true,
         'goog:chromeOptions': {
-            args: ['--disable-gpu', '--disable-extensions',
+            args: ['--headless', '--disable-gpu', '--disable-extensions',
                 '--proxy-bypass-list=*', '--start-maximized', '--disable-dev-shm-usage', '--no-sandbox',
                 '--ignore-certificate-errors', '--disable-background-networking']
         }
