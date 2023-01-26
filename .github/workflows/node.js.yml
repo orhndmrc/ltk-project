@@ -30,7 +30,7 @@ jobs:
           node-version: '16'
 
       - name : Install the dependencies
-        run : npm install --force
+        run : npm install --legacy-peer-deps
         
 #       - name : Change the selenoid port
 #         run : docker system prune --volumes
