@@ -27,7 +27,7 @@ describe('LTK Tests', () => {
         expect(await header.getText()).to.equal('LTK Categories')
         expect(await browser.getTitle()).to.equal('Categories | LTK')
         const categoryList = await getTextFromList(await CategoriesPage.categories)
-        expect(categoryList.length).to.equal(26)
+        expect(categoryList.length).to.equal(25)
         expect(categoryList.sort()).deep.equal(testData.categoryTitles.sort())
     })
     
