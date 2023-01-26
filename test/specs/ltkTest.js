@@ -20,6 +20,7 @@ describe('LTK Tests', () => {
     })
 
     it('should verify that the styles categories are presented - TC2', async () => {
+        await HomePage.shopTab.waitForDisplayed({timeout: 10000})
         should.exist(HomePage.shopTab)
         await HomePage.shopTab.click()
         const header = CategoriesPage.categoriesTitle
