@@ -24,7 +24,7 @@
     "@wdio/sync": "^7.27.0",
     "chai": "^4.3.7",
     "dotenv": "^16.0.3",
-    "chrome": "latest",
+    "chromedriver": "latest",
     "wdio-chromedriver-service": "^8.0.1"
   }
 }
